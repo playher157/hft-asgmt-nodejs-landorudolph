@@ -1,5 +1,4 @@
-[![Build Status](https://travis-ci.org/hft-stuttgart-ipr/hft-asgmt-nodejs-LandoRudolph.svg?branch=master)](https://travis-ci.org/hft-stuttgart-ipr/hft-asgmt-nodejs-USERNAME)
-
+![GitHub Classroom Workflow](https://github.com/hft-stuttgart-ipr/hft-asgmt-static-node.js-LandoRudolph/workflows/GitHub%20Classroom%20Workflow/badge.svg)
 # hft-asgmt-nodejs
 
 ## TODO
