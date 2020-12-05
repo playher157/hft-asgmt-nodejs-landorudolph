@@ -22,21 +22,13 @@
               </tr>
             </thead>
             <tbody>
+            <% data.forEach(entry => { %>
               <tr>
-                <th scope="row">1</th>
-                <td>Anon</td>
-                <td>Such table!</td>
+                <th scope="row"><%entry.id %> </th>
+                <td><% entry.username%></td>
+                <td><% entry.message%></td>
               </tr>
-              <tr>
-                <th scope="row">2</th>
-                <td>Doge</td>
-                <td>Wow!</td>
-              </tr>
-              <tr>
-                <th scope="row">3</th>
-                <td>Larry</td>
-                <td>the Bird</td>
-              </tr>
+            <%})%>
             </tbody>
           </table>
         </div>
