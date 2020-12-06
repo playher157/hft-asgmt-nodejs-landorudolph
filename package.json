@@ -1,7 +1,7 @@
 {
   "name": "hft-asgmt-nodejs",
   "version": "1.0.0",
-  "description": "",
+  "description": "![GitHub Classroom Workflow](https://github.com/hft-stuttgart-ipr/hft-asgmt-nodejs-LandoRudolph/workflows/GitHub%20Classroom%20Workflow/badge.svg) # hft-asgmt-nodejs",
   "main": "index.js",
   "scripts": {
     "start": "nodemon index.js",
@@ -16,8 +16,10 @@
     }
   },
   "dependencies": {
-    "ejs": "^3.0.2",
-    "express": "^4.17.1"
+    "body-parser": "^1.19.0",
+    "ejs": "^3.1.5",
+    "express": "^4.17.1",
+    "sqlite3": "^5.0.0"
   },
   "devDependencies": {
     "@babel/core": "^7.9.0",
@@ -28,5 +30,16 @@
     "babel-jest": "^25.3.0",
     "jest": "^25.3.0",
     "supertest": "^4.0.2"
-  }
+  },
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hft-stuttgart-ipr/hft-asgmt-nodejs-landorudolph.git"
+  },
+  "bugs": {
+    "url": "https://github.com/hft-stuttgart-ipr/hft-asgmt-nodejs-landorudolph/issues"
+  },
+  "homepage": "https://github.com/hft-stuttgart-ipr/hft-asgmt-nodejs-landorudolph#readme"
 }
